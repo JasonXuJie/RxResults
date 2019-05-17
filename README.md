@@ -40,6 +40,7 @@ findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
    
    
 在Fragment中使用
+```
 view.findViewById(R.id.btn_jump).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,3 +60,4 @@ view.findViewById(R.id.btn_jump).setOnClickListener(new View.OnClickListener() {
                         });
             }
         });
+```        
