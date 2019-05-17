@@ -3,7 +3,7 @@
 
 
 在Activity中使用
-···Java
+```
 findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
