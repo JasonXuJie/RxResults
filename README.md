@@ -15,8 +15,7 @@
         maven { url 'https://jitpack.io' }
       }
    }
-···
-
+```
 
 在Activity中使用
 ```
