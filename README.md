@@ -2,6 +2,22 @@
 基于RxPermissions框架思想，在Activity或Fragment使用startActivityForResult可以不重写onActivityResult回调
 
 
+依赖
+```
+   dependencies{
+      implementation 'com.github.JasonXuJie:RxResults:1.0.0'
+   }
+   
+   allprojects {
+      repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+      }
+   }
+···
+
+
 在Activity中使用
 ```
 findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
