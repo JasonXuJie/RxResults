@@ -1,9 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.JasonXuJie'
 
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.jason.rxresults"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
